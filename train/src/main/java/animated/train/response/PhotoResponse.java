@@ -11,9 +11,7 @@ import java.util.List;
 @Setter
 @ToString
 public class PhotoResponse {
-    //文件夹列表
-    public List<String> folder;
 
     //图片文件
-    public List<String> photo;
+    public List<byte[]> imageList;
 }

@@ -1,2 +1,9 @@
 # Default ignored files
+/compiler.xml
+/encodings.xml
+/misc.xml
+/modules.xml
 /workspace.xml
+/uiDesigner.xml
+/vcs.xml
+/libraries

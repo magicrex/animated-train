@@ -1,8 +1,5 @@
 package animated.train.enums;
 
-import org.springframework.stereotype.Component;
-
-@Component
 public enum StatusEnum {
 
     SUCCESS(200, "成功"),

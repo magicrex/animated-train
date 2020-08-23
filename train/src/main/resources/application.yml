@@ -3,4 +3,8 @@ server:
   servlet:
     context-path: /
 
+spring:
+  profiles:
+    active: dev
+
 
