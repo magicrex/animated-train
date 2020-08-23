@@ -22,7 +22,7 @@ public class PhotoService {
         List<String> nameList = Arrays.asList(list);
         List<String> res = new ArrayList<>();
         for(String s : nameList) {
-            String tmp = "http://127.0.0.1:8080/photo/getImage?imageUrl=" + s;
+            String tmp = basicProperties.imagePre + s;
             res.add(tmp);
         }
         return res;

@@ -11,4 +11,7 @@ public class BasicProperties {
 
     //图片文件夹路径
     public String photoPath;
+
+    //图片前缀
+    public String imagePre;
 }
