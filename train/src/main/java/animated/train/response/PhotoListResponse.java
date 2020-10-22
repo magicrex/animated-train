@@ -1,14 +1,8 @@
 package animated.train.response;
 
-import lombok.Getter;
-import lombok.Setter;
-import lombok.ToString;
-
 import java.util.List;
 
-@Getter
-@Setter
-@ToString
+
 public class PhotoListResponse {
 
     //文件夹列表
@@ -17,4 +11,27 @@ public class PhotoListResponse {
     //图片文件
     public List<String> photo;
 
+    public List<String> getFolder() {
+        return folder;
+    }
+
+    public void setFolder(List<String> folder) {
+        this.folder = folder;
+    }
+
+    public List<String> getPhoto() {
+        return photo;
+    }
+
+    public void setPhoto(List<String> photo) {
+        this.photo = photo;
+    }
+
+    @Override
+    public String toString() {
+        return "PhotoListResponse{" +
+                "folder=" + folder +
+                ", photo=" + photo +
+                '}';
+    }
 }

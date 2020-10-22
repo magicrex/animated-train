@@ -1,3 +1,4 @@
 basic:
   photo-path: C:\Users\86187\Desktop\图片
+  image-pre: http://127.0.0.1:8080/photo/getImage?imageUrl=
 
